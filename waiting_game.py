@@ -3,7 +3,7 @@ import random
 
 
 def waiting_game():
-    """ User press Enter and start the game. 
+    """ User presses Enter and starts the game.
         He/she is supposed to wait defined amount of time and press Enter again. """
 
     print('*' * 30)
