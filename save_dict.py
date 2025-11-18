@@ -1,4 +1,5 @@
 # Save dictionary to a file, read dictionary from a file
+# Might be done with python 'pickle' module as well
 
 import json
 
@@ -21,4 +22,4 @@ def read_dict_from_file(dict_path):
 
 my_dict = {'name': 'Alice', 'age': 30, 'city': 'New York'}
 save_dict_to_file(my_dict, 'my_dict')
-read_dict_from_file('my_dict.jskon')
+read_dict_from_file('my_dict.json')
